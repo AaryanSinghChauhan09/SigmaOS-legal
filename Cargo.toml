@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-legal"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Legal and compliance framework"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-legal"
+readme = "README.md"
+keywords = ["legal", "compliance", "license"]
+categories = ["development-tools"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
