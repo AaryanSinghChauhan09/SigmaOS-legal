@@ -11,7 +11,10 @@ keywords = ["legal", "compliance", "license"]
 categories = ["development-tools"]
 
 [dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
 
 [profile.release]
 opt-level = 3
+
+[lib]
+name = "sigmaos_legal"
+path = "src/lib.rs"
