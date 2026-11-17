@@ -3,12 +3,12 @@ name = "SigmaOS-legal"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "legal component"
+description = "SigmaOS legal documents, licenses, and compliance"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
